@@ -1,0 +1,86 @@
+.top{
+	display:flex;
+	background-color:#F2F2F2;
+	justify-content:center;
+	flex-direction:row;
+}
+.item{
+	background-color:#C9E4F9;
+	width:40px;
+	height:50px;
+	margin:10px;
+}
+.item1{
+	background-color:#F0E3E7;
+	width:40px;
+	height:30px;
+	margin:10px;
+	align-self:center;
+}
+.item2{
+	background-color:#F0E3E7;
+	width:30px;
+	height:30px;
+	margin:10px;
+	align-self:center;
+}
+.item3{
+	background-color:#F0E3E7;
+	width:10px;
+	height:10px;
+	margin:10px;
+	align-self:center;
+}
+.item4{
+	background-color:#F0E3E7;
+	width:10px;
+	height:20px;
+	margin:10px;
+	align-self:center;
+}
+.split
+{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.split .split1
+{
+	display:flex;
+	justify-content:center;
+}
+.split .split1 .boxa
+{
+	height:500px;
+	width:800px;
+	background-color:#C7AE90;
+	margin:60px;
+}
+.split .split2
+{
+	display:flex;
+	flex-direction:column;
+}
+.split .split2 .container{
+	display:flex;
+	flex-direction:column;
+	flex-wrap:wrap;
+	margin:60px;
+}
+.split .split2 .boxb
+{
+	height:200px;
+	width:400px;
+	background-color:gray;
+	margin:10px;
+}
+.footer{
+	display:flex;
+	flex-direction:row;
+	background-color:black;
+	width:auto;
+}
+.logo{
+	width:auto;
+	height:100px;
+}
